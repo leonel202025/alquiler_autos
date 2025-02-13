@@ -1,0 +1,46 @@
+.modCliente {
+    max-width: 400px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .modCliente h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .modCliente form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modCliente label {
+    margin-bottom: 10px;
+  }
+  
+  .modCliente input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .modCliente button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .modCliente button:hover {
+    background-color: #45a049;
+  }
+  

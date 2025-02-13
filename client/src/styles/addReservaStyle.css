@@ -1,0 +1,6 @@
+#app-container {
+    padding-bottom: 60px; /* Altura del footer */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }

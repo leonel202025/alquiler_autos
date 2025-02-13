@@ -1,0 +1,64 @@
+h2{
+    padding: 20px;
+  }
+  
+  .clientes-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom:auto;
+      padding-bottom: 131px;
+    }
+  
+  .add-cliente-button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin: 20px auto;
+      display: block;
+      text-decoration: none;
+    }
+    
+    .add-cliente-button:hover {
+      background-color: #0056b3;
+    }
+    
+    .clientes-list {
+      width: 100%;
+      flex-direction: row;
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+      margin: 10px;
+      flex-wrap: wrap;
+    }
+    
+    .car {
+      width: 250px;
+      margin: 10px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      text-align: center;
+      background-color: #fff;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      align-items: center;
+    }
+    
+    .car h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    
+    .car p {
+      font-size: 1em;
+      margin: 5px 0;
+      color: #555;
+    }
+    

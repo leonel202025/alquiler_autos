@@ -1,0 +1,40 @@
+/* Estilo base para el contenedor de la aplicación */
+.reserva-container {
+    max-width: 800px;
+    min-height: 150vh;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para el título de las reservas */
+  .reserva-container h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para la lista de autos (reservas) */
+  .reserva-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Estilo para el botón de agregar reserva */
+  .add-reserva-button {
+    display: inline-block;
+    padding: 15px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 17px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-reserva-button:hover {
+    background-color: #0056b3;
+  }
+  

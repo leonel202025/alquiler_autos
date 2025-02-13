@@ -1,0 +1,50 @@
+/* Estilos generales para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 13px;
+    margin: auto;
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de letra */
+  }
+  
+  /* Estilos para cada etiqueta y entrada de texto */
+  label {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px; /* Cambia el tamaño de letra */
+  }
+  
+  /* Estilos para el botón */
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px; /* Baja el botón */
+    font-size: 16px; /* Cambia el tamaño de letra del botón */
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }

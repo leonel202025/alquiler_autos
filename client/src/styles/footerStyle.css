@@ -1,0 +1,17 @@
+.footer-container {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  position:fixed;
+  bottom: 0;
+}
+  
+  /* Estilo para los enlaces dentro del footer */
+  footer h5 {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+  }
